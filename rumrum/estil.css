@@ -6,6 +6,7 @@
 	--bgAside: #e67e22;
 	--bgFooter: #2c3e50;
 	--blanc: #fff;
+	--negre: #000;
   }
 
 * {
@@ -23,15 +24,30 @@ body {
 	flex-wrap: wrap;
 
 }
-header h2 {
-	color: var(--blanc);
+#titol {
+	width: 55%;
+	border: var(--blanc) solid 4px;
+	padding-left: 1%;
+	margin-right: 2%;
 }
 
 #ultart {
-	align-content: flex-end;
+	width: 22%;
+	border: var(--blanc) solid 4px;
+	padding-left: 1%;
 }
+#ultart a:link {
+	color: var(--blanc);
+
+}
+#ultart a:visited {
+	color: var(--blanc);
+}
+
+
 header {
 	background-color: var(--bgHeader);
+	color: var(--blanc);
 	width: 100%;
 	min-height: 15%;
 	align-items: center;
@@ -47,9 +63,9 @@ main {
 	min-height: 75%;
 	padding: 2%;
 	background-color: var(--blanc);
-	
 
 }
+
 aside {
 	width:20%;
 	margin-right: 0px;
@@ -61,9 +77,48 @@ footer {
 	width: 100%;
 	height: 15%;
 	background-color: var(--bgFooter);
+	color: var(--blanc);
+	font-size: 20px;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
-header img {
+header a {
 	height: 90%;
 	width: 20%;
 	margin-left: 0;
+}
+
+#social a:link {
+	color: var(--blanc);
+
+}
+#social a:visited {
+	color: var(--blanc);
+
+}
+
+footer address {
+	width: 20%;
+}
+
+#legal {
+	width: 60%;
+}
+main img {
+	width: 400px;
+}
+
+main table {
+	width: 100%;
+}
+
+aside a:link {
+	color: var(--negre);
+
+}
+aside a:visited {
+	color: var(--negre);
+
 }
